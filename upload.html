@@ -1,0 +1,89 @@
+<head>
+  <title>Subiendo ficheros</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Language" content="es" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit" content="1 days" />
+  <meta name="googlebot" content="index, follow" />
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locate" content="es_ES" />
+
+  <style media="screen">
+ #p_root_2725087 #p_native{
+            position: relative;
+            z-index: 2;
+        }
+
+    body {
+      font-family: monospace;
+      background-color: #ffffff;
+      color: #212121;
+    }
+    #content {
+      margin: 30px auto 30px auto;
+    }
+    #footer {
+      font-size: 1em;
+    }
+
+   
+       .main-header{
+                  background-color:#E91E63;
+                  padding-left:15px;
+                  padding-right:15px;
+                  padding-top:10px;
+                  padding-buttom:10px;
+       }
+
+       .nav-link{
+          color:white;
+              margin-right:4px;
+       }
+
+       .text-center{
+          text-align:center;
+       }
+       .text-chicle{
+           color:rgba(143,20,63,1);
+       }
+     
+       .main-container{
+        min-height: 100vh;
+       }
+   
+       div#preloaded-images {
+       position: absolute;
+
+       height: 100px;
+       width: 100px;
+      }
+       
+
+  </style>
+
+<link rel="apple-touch-icon" sizes="152x152" href="//t.gamesnostalgia.com/icons/gn152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="//t.gamesnostalgia.com/icons/gn180.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+
+
+<link rel="stylesheet" href="http://t.gamesnostalgia.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://t.gamesnostalgia.com/css/main.css">
+
+</head>
+<h1> Subir ficheros </h1>
+<body>
+	<form action="/files" method="post" enctype="multipart/form-data">
+		<input type="file" name = "archivo">
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+
+<footer>
+
+</footer>
+</html>

@@ -1,0 +1,9 @@
+{
+   "ImportPath": "prueba3",
+   "GoVersion":  "go1.12",
+   "GodepVersion":"v74",
+    "Packages":[
+     "./..."
+   ],
+   "Deps":[]
+} 
